@@ -170,9 +170,7 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
-  <project path="vendor/htc/common-open" name="platform/vendor/htc/common-open" revision="master" />
   <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" revision="master" />
-  <project path="vendor/htc/prebuilt-open" name="platform/vendor/htc/prebuilt-open" revision="master" />
   <project path="vendor/htc/sapphire-open" name="platform/vendor/htc/sapphire-open" revision="master" />
 
   <project path="vendor/google/passion" name="cyanogen/android_vendor_google_passion" remote="github" />
