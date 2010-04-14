@@ -20,6 +20,10 @@
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
 
+  <project path="device/htc/common" name="device/htc/common" revision="master" />
+  <project path="device/htc/passion" name="device/htc/passion" revision="master" />
+  <project path="device/htc/passion-common" name="device/htc/passion-common" revision="master" />
+
   <project path="external/aes" name="platform/external/aes" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
@@ -102,7 +106,7 @@
   <project path="frameworks/policies/base" name="platform/frameworks/policies/base" />
 
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/htc/dream" name="platform/hardware/htc/dream" />
+  <project path="hardware/htc/dream" name="platform/hardware/htc/dream" revision="master" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
