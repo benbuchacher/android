@@ -4,25 +4,20 @@
   <remote name="github" fetch="git://github.com/" />
   <remote name="gitorious" fetch="git://gitorious.org" />
 
-  <default revision="eclair" remote="korg"/>
+  <default revision="refs/tags/android-2.1_r2.1s" remote="korg"/>
 
-  <project path="build" name="cyanogen/android_build" remote="github">
+  <project path="build" name="cyanogen/android_build" remote="github" revision="eclair" >
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
-  <project path="bionic" name="cyanogen/android_bionic" remote="github" />
+  <project path="bionic" name="cyanogen/android_bionic" remote="github" revision="eclair" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="koush/android_bootable_recovery" remote="github" />
+  <project path="bootable/recovery" name="koush/android_bootable_recovery" remote="github" revision="eclair" />
 
-  <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
-
-  <project path="device/htc/common" name="device/htc/common" revision="master" />
-  <project path="device/htc/passion" name="device/htc/passion" revision="master" />
-  <project path="device/htc/passion-common" name="device/htc/passion-common" revision="master" />
 
   <project path="external/aes" name="platform/external/aes" />
   <project path="external/apache-http" name="platform/external/apache-http" />
@@ -64,6 +59,7 @@
   <project path="external/jpeg" name="platform/external/jpeg" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+  <project path="external/lcc" name="platform/external/lcc" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libpng" name="platform/external/libpng" />
@@ -95,6 +91,7 @@
   <project path="external/tremor" name="platform/external/tremor" />
   <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
+  <project path="external/xdelta3" name="platform/external/xdelta3" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
@@ -106,15 +103,13 @@
   <project path="frameworks/policies/base" name="platform/frameworks/policies/base" />
 
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/htc/dream" name="platform/hardware/htc/dream" revision="master" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-
-  <project path="ndk" name="platform/ndk" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
+  <project path="sdk" name="platform/sdk" />
 
   <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
@@ -163,17 +158,15 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
 
   <project path="prebuilt" name="platform/prebuilt" />
-  <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
-  <project path="system/extras" name="cyanogen/android_system_extras" remote="github" />
-  <project path="system/vold" name="platform/system/vold" />
+  <project path="system/extras" name="cyanogen/android_system_extras" remote="github" revision="eclair" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
   <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" revision="master" />
   <project path="vendor/htc/sapphire-open" name="platform/vendor/htc/sapphire-open" revision="master" />
 
-  <project path="vendor/google/passion" name="cyanogen/android_vendor_google_passion" remote="github" />
+  <project path="vendor/google/passion" name="cyanogen/android_vendor_google_passion" remote="github" revision="eclair" />
   <project path="vendor/motorola/sholes-open" name="koush/android_vendor_motorola_sholes-open" remote="github" revision="master" />
 
   <project path="vendor/qcom/android-open" name="platform/vendor/qcom/android-open" revision="master" />
@@ -182,7 +175,7 @@
   <project path="vendor/pv-open" name="platform/vendor/pv-open" revision="master" />
 
   <project path="vendor/aosp" name="platform/vendor/aosp" revision="master" />
-  <project path="vendor/cyanogen" name="Topsy/android_vendor_cyanogen" remote="github" />
+  <project path="vendor/cyanogen" name="Topsy/android_vendor_cyanogen" remote="github" revision ="eclair" />
   <project path="vendor/sample" name="platform/vendor/sample" revision="master" />
 </manifest>
 
