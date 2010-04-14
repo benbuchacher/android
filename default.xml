@@ -20,10 +20,6 @@
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
 
-  <project path="device/htc/common" name="device/htc/common" />
-  <project path="device/htc/passion" name="device/htc/passion" />
-  <project path="device/htc/passion-common" name="device/htc/passion-common" />
-
   <project path="external/aes" name="platform/external/aes" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
