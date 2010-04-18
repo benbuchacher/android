@@ -89,11 +89,11 @@
   <project path="external/tesseract" name="platform/external/tesseract" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremor" name="platform/external/tremor" />
-  <project path="external/webkit" name="platform/external/webkit" />
+  <project path="external/webkit" name="cyanogen/android_external_webkit" remote="github" revision="eclair" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
   <project path="external/xdelta3" name="platform/external/xdelta3" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="koush/android_external_yaffs2" remote="github" revision="eclair"    />
+  <project path="external/yaffs2" name="koush/android_external_yaffs2" remote="github" revision="eclair" />
   <project path="external/zlib" name="platform/external/zlib" />
 
   <project path="frameworks/base" name="platform/frameworks/base" />
