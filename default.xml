@@ -209,6 +209,6 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
-  <project path="vendor/superF" name="/superF_vendor" remote="github" revision="master" />
+  <project path="vendor/superF" name="benbuchacher/superF_vendor" remote="github" revision="master" />
 
 </manifest>
