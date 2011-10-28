@@ -1,9 +1,9 @@
 To initialize get started with Android/CyanogenMod, you'll need to get
-familiar with Git and Repo. 
+familiar with Git and Repo.
 
 http://source.android.com/download/using-repo
 
-To initialize your local repository using the eclair (ese81) trees, 
+To initialize your local repository using the eclair (ese81) trees,
 use a command like this:
 
 repo init -u git://github.com/Topsy/android.git -b eclair
